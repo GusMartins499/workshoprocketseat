@@ -1,0 +1,200 @@
+body {
+  /*background-color: cornsilk;**/
+  background: linear-gradient(to left, #ee9ca7, #ffdde1);
+  color: black;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+  max-width: 980px;
+  margin: 40px auto;
+  width: 90%;
+  display: flex;
+}
+
+#intro {
+  width: 300px;
+  margin-right: 20px;
+}
+
+main {
+  margin: 32px 0; 
+}
+
+button {
+  font-weight: bold;
+  background-color: #ee9ca7;
+  color: black;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 140px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 16px black;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+}
+
+button:hover{
+  text-decoration: underline;
+}
+
+#buttons{
+  display: flex;
+   margin-bottom: 32px;
+   justify-content: space-evenly;
+   height: 40px;
+ 
+}
+
+footer {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ee9ca7;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.ideia {
+  display: flex;
+  margin-bottom: 32px;
+  background-color: white;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px -8px black;
+}
+
+.ideia img {
+  width: 60px;
+  height: 60px;
+  margin-right: 32px;
+}
+
+.ideia h3 {
+  margin: 0;
+}
+
+.ideia p {
+  margin: 8px 0;
+  color: black  ;
+}
+
+.ideia description {
+  margin: 16px 0;
+}
+
+p,description {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+#modal {
+  background: linear-gradient(to bottom, #ee9ca7, #ffdde1);
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 400ms;
+}
+
+#modal .content {
+  margin-top: 128px;
+  color: white;
+}
+
+#modal .content h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#modal form {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+ 
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ee9ca7;
+  outline: none;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.content form div:nth-child(3),
+.content form div:nth-child(4),
+.content form div:nth-child(5) {
+  grid-column: span 2;
+}
+
+form label {
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.8px;
+}
+
+form button {
+  background-color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 32px;
+  grid-column: 2;
+  justify-self: end;
+}
+
+form button:hover {
+  background-color: #ee9ca7;
+  color: white;
+  text-decoration: none;
+  transition: 400ms;
+}
+
+#modal.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+form a:hover{
+  background-color: #ee9ca7;
+  color: white;
+  text-decoration: none;
+  transition: 400ms;
+}
+
+form a {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  align-self: end;
+  border-radius: 6px;
+}
+/*# é pra usar em ID . é pra usar em classe*/

@@ -1,6 +1,6 @@
 body {
   /*background-color: cornsilk;**/
-  background: linear-gradient(to left, #ee9ca7, #ffdde1);
+  background: linear-gradient(to bottom, #ee9ca7, #ffdde1) fixed;
   color: black;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -60,7 +60,7 @@ footer {
   letter-spacing: 0.2px;
 }
 
-a {
+#last-ideias a {
   text-decoration: none;
   font-weight: bold;
   color: #ee9ca7;
@@ -104,7 +104,7 @@ p,description {
 }
 
 #modal {
-  background: linear-gradient(to bottom, #ee9ca7, #ffdde1);
+  background: linear-gradient(to bottom, #ee9ca7, #ffdde1) fixed;
   position: absolute;
   top: 0;
   width: 100vw;
@@ -196,5 +196,58 @@ form a {
   height: 40px;
   align-self: end;
   border-radius: 6px;
+  text-decoration: none;
 }
 /*# é pra usar em ID . é pra usar em classe*/
+
+/*ideia.html*/
+
+#page-ideias #container{
+  display: block;
+}
+#page-ideias header{
+  display: flex;
+  justify-content: space-between;
+}
+#page-ideias nav{
+  display: flex;
+  align-items: center;
+}
+
+#ideias a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ee9ca7;
+}
+
+#page-ideias li {
+  list-style-type: none;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+#page-ideias li a {
+  list-style-type: none;
+  margin-right: 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#page-ideias nav li:last-child {
+  margin: 0;
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+#page-ideias nav li:last-child a {
+  color: #ee9ca7;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}

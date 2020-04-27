@@ -1,0 +1,28 @@
+{
+  "name": "workshoprocketseat",
+  "version": "1.0.0",
+  "description": "Básico sobre HTML + JS\r Repositório para aprender sobre o básico de HTML+CSS+JS, com as vídeos aulas disponíveis no youtube do WorkShop da RocketSeat\r Utilizado chave SSH para estudar do trabalho e de casa no mesmo repositório GiT",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GusMartins499/workshoprocketseat.git"
+  },
+  "keywords": [],
+  "author": "Gustavo Martins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GusMartins499/workshoprocketseat/issues"
+  },
+  "homepage": "https://github.com/GusMartins499/workshoprocketseat#readme",
+  "devDependencies": {
+    "yarn": "^1.22.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  }
+}

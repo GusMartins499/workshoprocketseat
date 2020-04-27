@@ -109,7 +109,7 @@ p,description {
 
 #modal {
   background: linear-gradient(to bottom, #ee9ca7, #ffdde1) fixed;
-  position: absolute;
+  position: fixed;
   top: 0;
   top: 0;
   bottom: 0;
